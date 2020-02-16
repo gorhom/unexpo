@@ -1,0 +1,10 @@
+{
+  "name": "unexpo",
+  "version": "0.0.1",
+  "description": "remove expo",
+  "main": "index.js",
+  "repository": "git@github.com:gorhom/unexpo.git",
+  "author": "Mo Gorhom <gorhom@me.com>",
+  "license": "MIT",
+  "private": false
+}
