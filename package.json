@@ -2,9 +2,42 @@
   "name": "unexpo",
   "version": "0.0.1",
   "description": "remove expo",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/unexpo.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "repository": "git@github.com:gorhom/unexpo.git",
+  "keywords": [
+    "unexpo",
+    "react-native",
+    "expo"
+  ],
+  "bugs": {
+    "url": "https://github.com/gorhom/unexpo/issues"
+  },
+  "homepage": "https://github.com/gorhom/unexpo",
   "author": "Mo Gorhom <gorhom@me.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "release": "release-it"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@release-it/conventional-changelog": "^1.1.0",
+    "@types/jest": "^25.1.2",
+    "auto-changelog": "^1.16.2",
+    "husky": "^4.2.3",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1",
+    "release-it": "^12.4.3",
+    "tsdx": "^0.12.3",
+    "typescript": "^3.7.5"
+  }
 }
